@@ -6,8 +6,7 @@ module.exports = {
         script: './node_modules/nuxt/bin/nuxt.js',
         args: 'start',
         env: {
-            NODE_ENV: "production",
-            PORT: 3095
+            NODE_ENV: "production" // ,PORT: 3095
         }
     }]
 }
